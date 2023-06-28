@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Riviera v.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Flamenco:wght@300;400&family=Hind+Guntur:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <img class="logo" src="logo sin fondo.png" alt="Logo Hotel Riviera">
+            </div>
+            <ul class="navigation-options">
+                <li>Inicio</li>
+                <li>Calendario</li>
+                <li>Reservas</li>
+                <li>Mensajes</li>
+                <li>Notas</li>
+                <li>Liquidaciones</li>
+                <li>Lista de Huespedes</li>
+                <li>Comedor</li>
+            </ul>
+            <ul class="help-options">
+                <li>Ajustes</li>
+                <li>Soporte</li>
+            </ul>
+        </div>
+        <header>
+            <div class="search-bar">
+                <object data="magnify.svg" type="image/svg+xml" class="search-icon"></object>
+                <input type="text" class="search-input" placeholder="Buscar...">
+            </div>
+            <div class="perfil-area">
+                <object data="bell.svg" type="image/svg+xml" class="bell"></object>
+                <img class="foto-perfil" src="foto-perfil.jpg" alt="foto de perfil">
+                <p>Julian Stramigioli</p>
+            </div>
+            <div class="saludo">
+                <img src="foto-perfil.jpg" alt="foto de perfil" class="foto-perfil-grande">
+                <p>Hola,</p>
+                <h2>Julian Stramigioli</h2>
+            </div>
+            <div class="header-buttons">
+                <button>+ Reserva</button>
+                <button>+ Liquidacion</button>
+                <button>+ Check-in</button>
+            </div>
+
+
+        </header>
+        <div class="main-content">
+            <div class="main-main-content">
+                <h2>Proximas llegadas</h2>
+                <div id="llegadas">
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>Lidia Gavieiro - 17/12</h2>
+                        <p>Llega a la habitacion 32, con media pension. Sacar todos los cuadros de la habitacion, poner la almohada que a ella le gusta.</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>Silvia Payro - 20/12</h2>
+                        <p>Avisarle a Lautaro.</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>Los Podesta</h2>
+                        <p>Habitacion 3, a veces van a la 7 igual.</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>El nazi</h2>
+                        <p>Habitacion 25. Deberia estar en la lista negra</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>Hugo, el medico</h2>
+                        <p>Habitacion 27. Es medico, recuerdenlo.</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                    <div class="llegada-card">
+                        <div class="barra-color"></div>
+                        <h2>Teresa</h2>
+                        <p>Habitacion 31. Mala onda.</p>
+                        <div class="card-buttons">
+                            <object data="comment-outline.svg" type="image/svg+xml"></object>
+                            <object data="open-in-new.svg" type="image/svg+xml"></object>
+                            <object data="star-outline.svg" type="image/svg+xml"></object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mensajes">
+                <h2>Mensajes</h2>
+                <div id="mensajes-container">
+                    <div class="mensaje">
+                        <h2>Lavadero</h2>
+                        <p>Mandennos las sabanas</p>
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="mensaje">
+                        <h2>Consulta</h2>
+                        <p>Hola, les escribo porque queria averiguar para alquilar una habitacion...</p>
+                    </div>
+                    <div class="horizontal-line"></div>
+                    <div class="mensaje">
+                        <h2>Spam</h2>
+                        <p>Comprate un auto 0 km!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contactos-frecuentes">
+                <h2>Contactos Frecuentes</h2>
+                <div id="contactos-container">
+                    <div class="contacto">
+                        <div class="foto-contacto">L</div>
+                        <div class="nombre-contacto">Luciana</div>
+                        <div class="telefono-contacto">2255-412009</div>
+                    </div>
+                    <div class="contacto">
+                        <div class="foto-contacto">P</div>
+                        <div class="nombre-contacto">Panaderia</div>
+                        <div class="telefono-contacto">467891</div>
+                    </div>
+                    <div class="contacto">
+                        <div class="foto-contacto">M</div>
+                        <div class="nombre-contacto">Melina</div>
+                        <div class="telefono-contacto">123498797</div>
+                    </div>
+                    <div class="contacto">
+                        <div class="foto-contacto">J</div>
+                        <div class="nombre-contacto">Julian</div>
+                        <div class="telefono-contacto">2255-412008</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
